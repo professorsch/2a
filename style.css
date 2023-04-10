@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #0D0D12;
+    background-color: #2a68ca;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -19,4 +20,25 @@
     display: inline;
     margin: 0 16px;
     font-size: 24px;
+}
+.estudantes-imagem{
+    width: 30%;
+    padding: 50px;
+    
+}
+.home{
+    background-image: linear-gradient(#2a68ca,#16CFF8);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.home-titulo{
+    padding: 25px;
+    text-align: center;
+}
+.home-div-conteudo{
+    width: 35%;
+   
 }
